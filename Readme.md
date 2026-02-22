@@ -57,3 +57,35 @@ querySelectorAll() → Finds all elements that match a CSS selector. It returns 
 First, create an element using document.createElement().
 
 Then, add it to the page using appendChild() or append() on a parent element.
+3. What is Event Bubbling?
+
+Event Bubbling means when you click on a child element, the event moves upward to its parent elements.
+
+Example:
+If you click a button inside a div, the button event happens first, then the div event.
+
+4. What is Event Delegation?
+
+Event Delegation means adding one event listener to a parent element instead of adding many listeners to child elements.
+
+It works because of event bubbling.
+
+It is useful when:
+
+You have many child elements.
+
+New elements are added dynamically.
+
+5. What is the difference between preventDefault() and stopPropagation()?
+
+preventDefault() prevents the default browser behavior for an event (e.g., following a link or submitting a form).
+
+stopPropagation() prevents the event from bubbling up to parent elements, stopping further propagation.
+
+Additional Tips:
+
+Keep your answers concise but clear.
+
+Use proper formatting (bold, code inline) for clarity.
+
+Avoid minor grammar issues for a professional look.
