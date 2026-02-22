@@ -42,3 +42,18 @@ CSS3 (Vanilla)
 
 JavaScript (DOM Manipulation)
 
+Answers to Questions
+1. What is the difference between getElementById, getElementsByClassName, querySelector, and querySelectorAll?
+
+getElementById() → Finds one element using its unique id.
+
+getElementsByClassName() → Finds all elements with the same class name. It returns an HTMLCollection.
+
+querySelector() → Finds the first element that matches a CSS selector (like #id, .class, div).
+
+querySelectorAll() → Finds all elements that match a CSS selector. It returns a NodeList.
+
+2. How do you create and insert a new element into the DOM?
+First, create an element using document.createElement().
+
+Then, add it to the page using appendChild() or append() on a parent element.
